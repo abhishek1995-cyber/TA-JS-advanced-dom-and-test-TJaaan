@@ -1,0 +1,94 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Custom Styling */
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(145, 105, 126);
+    padding: 2rem 0;
+    background-color: aqua;
+}
+
+li{
+    border: 2px solid rgb(172, 170, 170);
+    width: 15rem;
+    margin: 0 auto;
+    padding: 2rem 2rem;
+    color: hotpink;
+}
+
+.add_card{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 2px solid rgb(134, 126, 130);;
+    padding: 1rem 1rem;
+}
+input{
+    width: 95%;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border: 1px solid rgb(134, 129, 132);
+}
+::placeholder { 
+    color: rgb(134, 126, 131);
+    opacity: 1; 
+}
+button{
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    background-color: rgb(207, 248, 226);
+    color: rgb(146, 143, 145);
+}
